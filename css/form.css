@@ -1,0 +1,167 @@
+.form {
+    padding: 70px 15px;
+    background: url(../img/original.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.form:before {
+    content: "";
+    background: rgba(47, 50, 75, 0.85);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.form__wrap {
+    margin: auto;
+    max-width: 602px;
+}
+
+.form__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__btn {
+    margin-bottom: 50px;
+    padding: 11px 38px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    background: #15A9CB;
+    box-shadow: 0px 4px 25px 0px rgba(21, 169, 203, 0.30);
+}
+
+.form__heading {
+    color: var(--color-white, #fff);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.form__fieldset {
+    border: none;
+    margin-bottom: 50px;
+}
+
+.form__input {
+    display: block;
+    border-radius: 50px;
+    border: 1.382px solid #FFF;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 9px 25px;
+    background-color: transparent;
+    margin: auto;
+    margin-bottom: 21px;
+    width: 423px;
+}
+
+.form__input:last-child {
+    margin-bottom: 0;
+}
+
+.form__par {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.form__text {
+    color: var(--color-white, #fff);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form__link {
+    color: #4A76A8;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 1024px) {
+    .form__heading {
+        font-size: 32px;
+    }
+
+    .form__par {
+        font-size: 20px;
+    }
+
+    .form__input {
+        width: 377px;
+    }
+
+    .form__btn {
+        margin-bottom: 30px;
+    }
+
+    .form__text {
+        font-size: 17px;
+    }
+
+    .form__link {
+        font-size: 17px;
+    }
+
+    .form {
+        padding-bottom: 56px;
+    }
+}
+
+@media (max-width: 425px) {
+    .form {
+        padding: 30px 15px;
+    }
+
+    .form__heading {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .form__par {
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+
+    .form__input {
+        padding: 6px 18px;
+        font-size: 14px;
+        width: 290px;
+    }
+
+    .form__fieldset {
+        margin-bottom: 45px;
+    }
+
+    .form__btn {
+        margin-bottom: 30px;
+        padding: 10px 26px;
+        font-size: 16px;
+    }
+
+    .form__text {
+        font-size: 11px;
+    }
+
+    .form__link {
+        font-size: 11px;
+    }
+}
