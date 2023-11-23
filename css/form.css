@@ -57,7 +57,7 @@
 .form__input {
     display: block;
     border-radius: 50px;
-    border: 1.382px solid #FFF;
+    border: 1.382px solid var(--color-white, #fff);
     color: rgba(255, 255, 255, 0.50);
     font-family: Roboto;
     font-size: 22px;
