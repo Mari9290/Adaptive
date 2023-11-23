@@ -101,8 +101,33 @@
 }
 
 @media (max-width: 700px) {
+
+
+
+}
+
+@media (max-width: 320px) {
+    .footer {
+        padding: 25px 0 0 0;
+    }
+
     .footer__name {
-        order: 3;
+        order: 1;
+    }
+
+    .footer__wrapper {
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: space-around;
+    } 
+
+    .footer__name {
+        width: 320px;
+        height: 47px;
+        background: #2A2C3F;
+        margin: auto;
+        text-align: center;
+        padding: 15px;
     }
 
 }
