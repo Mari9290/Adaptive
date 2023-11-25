@@ -1,6 +1,6 @@
 .info {
     background: var(--color-white, #fff);
-    padding: 70px 15px;
+    padding: 70px 0;
 }
 
 .info__heading {
