@@ -4,8 +4,6 @@
 }
 
 .footer__wrapper {
-    max-width: 1205px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,13 +98,8 @@
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 425px) {
 
-
-
-}
-
-@media (max-width: 320px) {
     .footer {
         padding: 25px 0 0 0;
     }
@@ -122,12 +115,11 @@
     } 
 
     .footer__name {
-        width: 320px;
+        width: 100%;
         height: 47px;
         background: #2A2C3F;
         margin: auto;
         text-align: center;
         padding: 15px;
     }
-
 }

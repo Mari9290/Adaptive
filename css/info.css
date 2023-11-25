@@ -1,8 +1,6 @@
 .info {
     background: var(--color-white, #fff);
     padding: 70px 15px;
-    max-width: 900px;
-    margin: auto;
 }
 
 .info__heading {
@@ -27,7 +25,8 @@
 
 .info__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 86px;
     flex-wrap: wrap;
 }
 
@@ -126,7 +125,12 @@
     margin-bottom: 50px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
+
+    .info__list {
+        gap: 50px;
+    }
+
     .info__heading {
         font-size: 32px;
         margin-bottom: 23px;
@@ -173,9 +177,6 @@
 
 @media (max-width: 820px) {
     .info__list {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
         gap: 40px;
     }
 }
