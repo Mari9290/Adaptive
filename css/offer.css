@@ -3,6 +3,7 @@
     background: url(../img/stag-office-mockup.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     z-index: -1;
     position: relative;
 }
@@ -53,7 +54,7 @@
 
 @media (max-width: 1024px) {
     .offer {
-        padding: 156px 15px 156px;
+        padding: 156px 0 156px;
     }
 
     .offer__heading {
@@ -69,7 +70,7 @@
 
 @media (max-width: 425px) {
     .offer {
-        padding: 110px 15px 65px;
+        padding: 110px 0 65px;
     }
 
     .offer__heading{
