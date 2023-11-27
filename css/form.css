@@ -1,5 +1,5 @@
 .form {
-    padding: 70px 0;
+    padding: 72px 0;
     background: url(../img/original.jpg);
     background-size: cover;
     background-position: center;
@@ -27,7 +27,7 @@
 
 .form__btn {
     margin-bottom: 50px;
-    padding: 11px 38px;
+    padding: 13px 38px;
     color: #FFF;
     text-align: center;
     font-size: 20px;
@@ -53,7 +53,7 @@
 .form__input {
     display: block;
     border-radius: 50px;
-    border: 1.382px solid var(--color-white, #fff);
+    border: 1.3px solid var(--color-white, #fff);
     color: rgba(255, 255, 255, 0.50);
     font-family: Roboto;
     font-size: 22px;
@@ -61,8 +61,9 @@
     padding: 9px 25px;
     background-color: transparent;
     margin: auto;
-    margin-bottom: 21px;
+    margin-bottom: 20px;
     width: 423px;
+    /* height: 44px; */
 }
 
 .form__input:last-child {
@@ -89,7 +90,8 @@
     color: #4A76A8;
     font-size: 20px;
     font-weight: 400;
-    text-decoration-line: underline;
+    border-bottom: 1px solid #4A76A8;
+    padding-bottom: 0.4px;
 }
 
 @media (max-width: 1024px) {
